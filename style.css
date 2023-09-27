@@ -174,3 +174,50 @@ body{
     color: black;
     background-color: white;
 }
+
+.cont1,.cont2,.cont3{
+    display: flex;
+    
+    margin-top: 20px;
+    color: white;
+}
+
+.inside{
+    width: 330px;
+    height: 300px;
+    padding: 30px;  
+}
+
+.wid{
+    height: 200px;
+    width: 350px;
+}
+
+.flex{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    line-height: 13px;
+}
+
+.flex img{
+    width: 50px;
+    height: 50px;
+    padding-right: 10px;
+}
+
+.inside p>img{
+    height: 10px;
+    padding: 2px;
+    
+}
+
+.inside p{
+    display: inline;
+}
+
+.cont3 img{
+    display: flex;
+    margin-right: 10px;
+    margin-left: 30px;
+}
